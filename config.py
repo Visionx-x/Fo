@@ -7,7 +7,7 @@ class Config:
     API_HASH = "9b8e9b10a5c34b67054aceca02bf423e"
     BOT_TOKEN = "8059875822:AAFPq_2ds5frfmcVo8M5fI72lueixdpCvLo"
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '6757342838').split()]
-    BOT_SESSION = 
+    BOT_SESSION = "booob"
     PICS = (environ.get('PICS', 'https://graph.org/file/e223aea8aca83e99162bb.jpg'))
 
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Avii12:Avii12@avii.rvyxw.mongodb.net/?retryWrites=true&w=majority&appName=Avii")
