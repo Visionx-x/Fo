@@ -13,7 +13,7 @@ class Config:
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Avii12:Avii12@avii.rvyxw.mongodb.net/?retryWrites=true&w=majority&appName=Avii")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Avii12")
     
-    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 'https://t.me/+RFvG28BfB1tkMWVl'))
+    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 'https://t.me/forwardbot_alerts'))
     FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "https://t.me/+aJBo4j5v3D1jMjA1") # FORCE SUB channel link 
     FORCE_SUB_ON = environ.get("FORCE_SUB_ON", "True")  # FORCE SUB ON - OFF
 
